@@ -1,7 +1,7 @@
 package ch04;
 
 class Circle {
-    private double radius;
+    public double radius;
 
     public double getRadius() {
         return radius;
