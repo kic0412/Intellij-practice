@@ -15,6 +15,3 @@ class Circle extends Shape {
         return pi * radius * radius;
     }
 }
-
-public class Circle {
-}

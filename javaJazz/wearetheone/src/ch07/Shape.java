@@ -1,6 +1,6 @@
 package ch07;
 
-public class Shape {
+abstract class Shape {
     double pi = 3.14;
 
     abstract void draw();
