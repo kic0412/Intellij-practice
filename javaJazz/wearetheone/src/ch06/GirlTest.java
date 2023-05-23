@@ -1,7 +1,18 @@
 package ch06;
 
 class Girl {
-    String name;
+    private String name;
+
+    Girl() {
+    }
+
+    Girl(String name) {
+        this.name = name;
+    }
+
+    void show() {
+        System.out.println("그녀는 자바 초보자이다.");
+    }
 }
 
 class GoodGirl extends Girl {
@@ -22,6 +33,7 @@ public class GirlTest {
         GoodGirl g2 = new GoodGirl();
         GoodGirl gg = new BestGirl();
 
+        g2.show();
         gg.show();
     }
 }
