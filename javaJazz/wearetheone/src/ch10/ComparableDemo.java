@@ -25,6 +25,8 @@ class Rectangle implements Comparable<Rectangle> {
 
 public class ComparableDemo {
     public static void main(String[] args) {
+        // TODO: 2023-05-24 what
+        // TODO: 2023-05-24 where
         Rectangle[] rectangles = {new Rectangle(3, 5), new Rectangle(2, 10), new Rectangle(5, 5)};
 
         Arrays.sort(rectangles);
