@@ -107,6 +107,13 @@ public class Muzan extends Enemy {
         if (image != null) {
             g2.drawImage(image, x, y, null); // 선택된 이미지를 그리기
         }
+
+        g2.setColor(Color.RED);
+        g2.fillRect(x, y - 10, hpBarWidthEnemy, hpBarHeightEnemy); // HP 바 배경색으로 채우기
+        g2.setColor(Color.RED);
+        int hpBarWidthEnemy = (int) ((double) currentHpEnemy / maxHpEnemy * this.hpBarWidthEnemy); // 현재 체력에 따라 바의 길이 계산
+        g2.fillRect(x, y - 10, this.hpBarWidthEnemy, hpBarHeightEnemy); // 현재 체력에 맞게 HP 바 그리기
+
         // spriteNum 업데이트
         if (movingForward) {
             if (spriteNum == 1) {
