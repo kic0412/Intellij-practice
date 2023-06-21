@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Users\seoulit\.gradle\nodejs\node-v18.12.1-win-x64\node.exe C:\Users\seoulit\.gradle\yarn\yarn-v1.22.17\bin\yarn.js --ignore-scripts
+
+PATH: 
+  D:\VMware\bin\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile;C:\Program Files\Bandizip\;C:\Program Files\Git\cmd;C:\Users\seoulit\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\seoulit\AppData\Local\Programs\Python\Python311\;C:\Users\seoulit\AppData\Local\Microsoft\WindowsApps;;C:\vsCode\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.1\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\seoulit\AppData\Local\Yarn\Cache\v6\npm-@emotion-utils-1.2.1-bbab58465738d31ae4cb3dbb6fc00a5991f755e4-integrity\node_modules\@emotion\utils\.yarn-metadata.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Users\seoulit\.gradle\yarn\yarn-v1.22.17\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\seoulit\.gradle\yarn\yarn-v1.22.17\lib\cli.js:310:30)
+      at C:\Users\seoulit\.gradle\yarn\yarn-v1.22.17\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "TestKotlin",
+    "version": "1.0-SNAPSHOT",
+    "private": true,
+    "workspaces": [
+      "packages\\TestKotlin",
+      "packages\\TestKotlin-test",
+      "packages_imported\\kotlin\\1.8.20",
+      "packages_imported\\kotlin-wrappers-kotlin-react-core-js-ir\\18.2.0-pre.346",
+      "packages_imported\\kotlin-wrappers-kotlin-csstype-js-ir\\3.1.0-pre.346",
+      "packages_imported\\kotlin-wrappers-kotlin-react-dom-js-ir\\18.2.0-pre.346",
+      "packages_imported\\kotlin-wrappers-kotlin-emotion-js-ir\\11.9.3-pre.346",
+      "packages_imported\\kotlin-test-js-runner\\0.0.1",
+      "packages_imported\\kotlin-test\\1.8.20"
+    ],
+    "resolutions": {},
+    "devDependencies": {},
+    "dependencies": {},
+    "peerDependencies": {},
+    "optionalDependencies": {},
+    "bundledDependencies": []
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

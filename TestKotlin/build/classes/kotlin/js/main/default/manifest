@@ -1,0 +1,10 @@
+abi_version=1.7.0
+builtins_platform=JS
+compiler_version=1.8.20
+depends=org.jetbrains.kotlin-wrappers\:kotlin-react org.jetbrains.kotlin-wrappers\:kotlin-react-dom org.jetbrains.kotlin-wrappers\:kotlin-emotion org.jetbrains.kotlin-wrappers\:kotlin-react-core org.jetbrains.kotlin-wrappers\:kotlin-browser org.jetbrains.kotlin-wrappers\:kotlin-csstype org.jetbrains.kotlin-wrappers\:kotlin-extensions kotlin
+ir_version=1.0.0
+jsOutputName=TestKotlin
+metadata_version=1.4.1
+serializedIrFileFingerprints=SerializedIrFileFingerprint(fileFingerprint\=1x1woft9nbhza.56340vsy690m) SerializedIrFileFingerprint(fileFingerprint\=jkp47brb6mv.wcer8onyw0ub)
+serializedKlibFingerprint=xcr5xewuzp7y.32kuikbo38nvs
+unique_name=me.seoulit\:TestKotlin

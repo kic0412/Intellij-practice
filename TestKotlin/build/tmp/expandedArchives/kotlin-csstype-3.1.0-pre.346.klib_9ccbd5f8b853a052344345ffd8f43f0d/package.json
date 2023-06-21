@@ -1,0 +1,14 @@
+{
+  "name": "kotlin-wrappers-kotlin-csstype-js-ir",
+  "version": "3.1.0-pre.346",
+  "main": "kotlin-wrappers-kotlin-csstype-js-ir.js",
+  "types": "kotlin-wrappers-kotlin-csstype-js-ir.d.ts",
+  "devDependencies": {
+    "csstype": "^3.1.0",
+    "dukat": "0.5.8-rc.4"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "kotlin-wrappers-kotlin-react-core-js-ir",
+  "version": "18.2.0-pre.346",
+  "main": "kotlin-wrappers-kotlin-react-core-js-ir.js",
+  "types": "kotlin-wrappers-kotlin-react-core-js-ir.d.ts",
+  "devDependencies": {
+    "dukat": "0.5.8-rc.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}
